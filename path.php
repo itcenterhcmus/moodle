@@ -1,3 +1,4 @@
 <?php
-	echo basename(dirname(__FILE__)); //"cars"
+	$url = $_SERVER['SERVER_NAME'] . dirname(__FILE__);
+	echo $url;
 ?>
